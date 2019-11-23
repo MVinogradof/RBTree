@@ -13,8 +13,8 @@ struct rb_node
 
 struct rb_tree
 {
-    struct rb_node *root; // указатель на корневой узел
-    int count; // количество узлов в дереве
+    struct rb_node *root;  // указатель на корневой узел
+    int count;  // количество узлов в дереве
 };
 
 struct rb_tree * tree_create(void)
